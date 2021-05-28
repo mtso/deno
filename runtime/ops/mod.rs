@@ -2,6 +2,7 @@
 
 pub mod fs;
 pub mod fs_events;
+pub mod hello;
 pub mod http;
 pub mod io;
 pub mod net;

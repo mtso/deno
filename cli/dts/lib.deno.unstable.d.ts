@@ -5,6 +5,19 @@
 
 declare namespace Deno {
   /**
+   * **UNSTABLE**: New API, yet to be vetted.
+   *
+   * This API is added as a hello world to get familiar with the project structure.
+   *
+   * Format a greeting given a string name.
+   *
+   * ```ts
+   * console.log(Deno.greet("name")); // e.g. "Hello, name"
+   * ```
+   */
+  export function greet(name: string): string;
+
+  /**
    * **UNSTABLE**: New API, yet to be vetted.  This API is under consideration to
    * determine if permissions are required to call it.
    *

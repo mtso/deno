@@ -50,6 +50,7 @@ const UNSTABLE_DENO_PROPS: &[&str] = &[
   "formatDiagnostics",
   "futime",
   "futimeSync",
+  "greet",
   "hostname",
   "kill",
   "listen",

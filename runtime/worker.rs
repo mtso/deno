@@ -116,6 +116,7 @@ impl MainWorker {
       ops::worker_host::init(options.create_web_worker_cb.clone()),
       ops::fs_events::init(),
       ops::fs::init(),
+      ops::hello::init(),
       ops::http::init(),
       ops::io::init(),
       ops::io::init_stdio(),

@@ -134,5 +134,6 @@
     HttpClient: __bootstrap.fetch.HttpClient,
     createHttpClient: __bootstrap.fetch.createHttpClient,
     http: __bootstrap.http,
+    greet: __bootstrap.hello.greet,
   };
 })(this);
