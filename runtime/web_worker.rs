@@ -288,6 +288,7 @@ impl WebWorker {
     // Extensions providing Deno.* features
     let deno_ns_exts = if options.use_deno_namespace {
       vec![
+        ops::foo::init(),
         ops::fs_events::init(),
         ops::fs::init(),
         ops::net::init(),

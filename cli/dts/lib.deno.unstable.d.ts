@@ -5,6 +5,10 @@
 
 declare namespace Deno {
   /**
+   */
+  export function hello(): number;
+
+  /**
    * **UNSTABLE**: New API, yet to be vetted.  This API is under consideration to
    * determine if permissions are required to call it.
    *
